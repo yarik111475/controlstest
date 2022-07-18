@@ -1,6 +1,7 @@
 import QtQuick 2.12
 import QtQuick.Window 2.12
 import SimpleControls 1.0
+import ExtControls 1.0
 
 Window {
     width: 640
@@ -8,8 +9,8 @@ Window {
     visible: true
     title: qsTr("Hello World")
 
-    SimpleButton{
+    GradientButton{
         anchors.centerIn: parent;
-        text: "Simple Button";
+        text: "Hello QML!";
     }
 }

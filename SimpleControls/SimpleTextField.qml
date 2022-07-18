@@ -11,6 +11,7 @@ TextField {
     padding: 0;
     renderType: Text.NativeRendering;
     property bool bordered: true;
+    selectByMouse: true;
 
     background: Rectangle{
         implicitWidth: control.width + control.leftInset + control.rightInset;

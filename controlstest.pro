@@ -1,6 +1,6 @@
-QT += quick qml quickcontrols2
+QT += core gui widgets qml quick quickcontrols2
 
-CONFIG += c++11
+CONFIG += c++17
 
 # You can make your code fail to compile if it uses deprecated APIs.
 # In order to do so, uncomment the following line.
@@ -12,14 +12,20 @@ SOURCES += \
 RESOURCES += \
     controlstest.qrc
 
-include ($$PWD/SimpleControls/SimpleControls.pri)
-include ($$PWD/ExtControls/ExtControls.pri)
-
 QML2_IMPORT_PATH += \
     $$PWD
 
 QML_IMPORT_PATH += \
     $$PWD
+
+#QML2_IMPORT_PATH += \
+#    $$PWD/SimpleControls
+
+#QML_IMPORT_PATH += \
+#    $$PWD/SimpleControls
+
+include ($$PWD/SimpleControls/SimpleControls.pri)
+include ($$PWD/ExtControls/ExtControls.pri)
 
 # Additional import path used to resolve QML modules in Qt Creator's code model
 QML_IMPORT_PATH =

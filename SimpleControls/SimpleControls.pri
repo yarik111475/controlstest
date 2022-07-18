@@ -7,3 +7,9 @@ QML2_IMPORT_PATH += \
 QML_IMPORT_PATH += \
     $$PWD
 
+#QML2_IMPORT_PATH += \
+#    $$PWD/SimpleControls
+
+#QML_IMPORT_PATH += \
+#    $$PWD/SimpleControls
+

@@ -59,7 +59,7 @@ ComboBox {
             elide: Text.ElideRight;
             verticalAlignment: Text.AlignVCenter;
         }
-        highlighted: control.highlightedIndex === index
+        highlighted: control.highlightedIndex === index;
     }
 
     indicator: Canvas {

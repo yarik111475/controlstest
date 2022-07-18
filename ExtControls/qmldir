@@ -1,1 +1,12 @@
 module ExtControls
+
+DateTilePicker 1.0 DateTilePicker.qml
+ExtCalendar 1.0 ExtCalendar.qml
+ExtCheckBox 1.0 ExtCheckBox.qml
+ExtCheckDelegate 1.0 ExtCheckDelegate.qml
+ExtItemDelegate 1.0 ExtItemDelegate.qml
+ExtTab 1.0 ExtTab.qml
+ExtTableView 1.0 ExtTableView.qml
+ExtTabView 1.0 ExtTabView.qml
+ExtTextField 1.0 ExtTextField.qml
+GradientButton 1.0 GradientButton.qml
