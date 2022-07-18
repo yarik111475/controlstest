@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/SimpleControls">
+        <file>qmldir</file>
+        <file>SimpleBusyIndicator.qml</file>
+        <file>SimpleButton.qml</file>
+        <file>SimpleCheckBox.qml</file>
+        <file>SimpleComboBox.qml</file>
+        <file>SimpleSpinBox.qml</file>
+        <file>SimpleText.qml</file>
+        <file>SimpleTextField.qml</file>
+    </qresource>
+</RCC>

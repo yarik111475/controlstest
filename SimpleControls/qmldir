@@ -1,0 +1,9 @@
+module SimpleControls
+
+SimpleBusyIndicator 1.0 SimpleBusyIndicator.qml
+SimpleButton 1.0 SimpleButton.qml
+SimpleCheckBox 1.0 SimpleCheckBox.qml
+SimpleComboBox 1.0 SimpleComboBox.qml
+SimpleSpinBox 1.0 SimpleSpinBox.qml
+SimpleText 1.0 SimpleText.qml
+SimpleTextField 1.0 SimpleTextField.qml

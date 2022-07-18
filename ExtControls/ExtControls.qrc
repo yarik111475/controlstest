@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/ExtControls">
+        <file>DateTimePicker.qml</file>
+        <file>ExtCalendar.qml</file>
+        <file>ExtCheckBox.qml</file>
+        <file>ExtCheckDelegate.qml</file>
+        <file>ExtItemDelegate.qml</file>
+        <file>ExtTab.qml</file>
+        <file>ExtTableView.qml</file>
+        <file>ExtTabView.qml</file>
+        <file>ExtTextField.qml</file>
+        <file>GradientButton.qml</file>
+        <file>qmldir</file>
+    </qresource>
+</RCC>
